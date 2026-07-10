@@ -289,18 +289,23 @@
 }
 
 .footer {
-  padding: 40px 60px;
+  padding: 30px 60px;
   background-color: #0d1b2a;
   color: #ffffff;
   display: flex;
+  flex-direction: column;
+}
+
+.footer-top{
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 16px;
 }
 
 .footer-links {
   display: flex;
-  gap: 20px;
+  font-size: 15px;
+  gap: 10px;
 }
 
 .footer-links a {
@@ -324,9 +329,25 @@
   gap: 10px;
 }
 
-/* ===========================
-   SCHEDULE SECTION
-=========================== */
+.icons a{
+  text-decoration: none;
+  color: white;
+}
+
+.footer-right{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer hr{
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.footer p{
+  text-align: center;
+    font-size: 13px;
+    margin-left: 40px;
+}
 
 .schedule {
   padding: 80px 60px;
@@ -346,9 +367,7 @@
   margin-bottom: 60px;
 }
 
-/* ===========================
-   TIMELINE
-=========================== */
+
 
 .timeline {
   position: relative;
@@ -356,7 +375,7 @@
   margin: auto;
 }
 
-/* Vertical Line */
+
 
 .timeline::before {
   content: "";
@@ -372,7 +391,7 @@
   transform: translateX(-50%);
 }
 
-/* Day Label */
+
 
 .timeline-day-label {
   position: sticky;
@@ -394,7 +413,7 @@
   z-index: 10;
 }
 
-/* Each timeline item */
+
 
 .timeline-item {
   position: relative;
@@ -406,7 +425,7 @@
   margin-bottom: 60px;
 }
 
-/* Blue Dot */
+
 
 .timeline-item::after {
   content: "";
@@ -432,7 +451,7 @@
   z-index: 5;
 }
 
-/* Card */
+
 
 .timeline-content {
   width: 42%;
@@ -454,7 +473,6 @@
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 }
 
-/* Typography */
 
 .timeline-time {
   display: block;
@@ -498,9 +516,6 @@
   line-height: 1.6;
 }
 
-/* ===========================
-   HOVER IMAGE
-=========================== */
 
 .timeline-preview {
   position: absolute;
