@@ -17,6 +17,13 @@
       href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header class="header">
@@ -50,111 +57,137 @@
       </div>
     </section>
 
-<section class="speakers">
-  <h2>Meet the Speakers</h2>
+    <section class="speakers">
+      <h2>Meet the Speakers</h2>
 
-  <div class="speaker-grid">
+      <div class="speaker-grid">
+        <div class="speaker-card">
+          <div class="speaker-img">
+            <img
+              src="./Resources/B14-A01-DevConf-2026/assets/andrej.png"
+              alt="Andrej Karpathy"
+            />
+          </div>
+          <div class="speaker-info">
+            <span class="expertise">AI / ML</span>
+            <h3>Andrej Karpathy</h3>
+            <p>Pretraining team, Anthropic</p>
+          </div>
+        </div>
 
-    <div class="speaker-card">
-      <div class="speaker-img">
-        <img src="./Resources/B14-A01-DevConf-2026/assets/andrej.png" alt="Andrej Karpathy">
+        <div class="speaker-card">
+          <div class="speaker-img">
+            <img
+              src="./Resources/B14-A01-DevConf-2026/assets/demis.png"
+              alt="Demis Hassabis"
+            />
+          </div>
+          <div class="speaker-info">
+            <span class="expertise">CLOUD & DEVOPS</span>
+            <h3>Demis Hassabis</h3>
+            <p>Co-Founder and CEO, Google DeepMind</p>
+          </div>
+        </div>
+
+        <div class="speaker-card">
+          <div class="speaker-img">
+            <img
+              src="./Resources/B14-A01-DevConf-2026/assets/gary.png"
+              alt="Gary Marcus"
+            />
+          </div>
+          <div class="speaker-info">
+            <span class="expertise">FRONTEND</span>
+            <h3>Gary Marcus</h3>
+            <p>Staff Engineer, Vercel</p>
+          </div>
+        </div>
+
+        <div class="speaker-card">
+          <div class="speaker-img">
+            <img
+              src="./Resources/B14-A01-DevConf-2026/assets/mustafa.png"
+              alt="Mustafa Suleyman"
+            />
+          </div>
+          <div class="speaker-info">
+            <span class="expertise">SECURITY</span>
+            <h3>Mustafa Suleyman</h3>
+            <p>CEO of Microsoft AI</p>
+          </div>
+        </div>
       </div>
-      <div class="speaker-info">
-        <span class="expertise">AI / ML</span>
-        <h3>Andrej Karpathy</h3>
-        <p>Pretraining team, Anthropic</p>
+    </section>
+
+    <section class="pricing">
+      <h2>Secure Your Spot</h2>
+      <p class="pricing-sub">Early-bird pricing ends August 15, 2026.</p>
+
+      <div class="pricing-grid">
+        <div class="price-card">
+          <span class="plan-name">STANDARD</span>
+          <div class="price">$399</div>
+          <span class="person">per person</span>
+          <hr />
+          <ul>
+            <li>Access to all 3 conference days</li>
+            <li>48 curated technical talks</li>
+            <li>2 workshop sessions</li>
+            <li>Networking lunch & coffee breaks</li>
+            <li>Conference swag bag</li>
+            <li>Digital recordings (30 days)</li>
+          </ul>
+          <button class="common-btn price-btn">Get Standard</button>
+        </div>
+
+        <div class="price-card price-card-highlight">
+          <span class="plan-name">PRO</span>
+          <div class="price">$749</div>
+          <span class="person">per person</span>
+          <hr />
+          <ul>
+            <li>Everything in Standard</li>
+            <li>Unlimited workshop access</li>
+            <li>Speaker meet & greet</li>
+            <li>VIP networking dinner</li>
+            <li>Lifetime recording access</li>
+            <li>1-on-1 mentorship (30 min)</li>
+          </ul>
+          <button class="common-btn price-btn-pro">Get Pro</button>
+        </div>
+
+        <div class="price-card">
+          <span class="plan-name">TEAM</span>
+          <div class="price">$5,999</div>
+          <span class="person">up to 10 people</span>
+          <hr />
+          <ul>
+            <li>Everything in Pro (10 seats)</li>
+            <li>Dedicated team lounge access</li>
+            <li>Private workshop booking</li>
+            <li>Company logo on event page</li>
+            <li>Recruitment booth (1 day)</li>
+            <li>Priority customer support</li>
+          </ul>
+          <button class="common-btn price-btn">Contact Us</button>
+        </div>
       </div>
-    </div>
+    </section>
 
-    <div class="speaker-card">
-      <div class="speaker-img">
-        <img src="./Resources/B14-A01-DevConf-2026/assets/demis.png" alt="Demis Hassabis">
-      </div>
-      <div class="speaker-info">
-        <span class="expertise">CLOUD & DEVOPS</span>
-        <h3>Demis Hassabis</h3>
-        <p>Co-Founder and CEO, Google DeepMind</p>
-      </div>
-    </div>
+    <footer class="footer">
+        <div>
+          <p>© 2026 DevConf. All rights reserved.</p>
+          <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-square-linkedin"></i>
+          </div>
+        </div>
 
-    <div class="speaker-card">
-      <div class="speaker-img">
-        <img src="./Resources/B14-A01-DevConf-2026/assets/gary.png" alt="Gary Marcus">
-      </div>
-      <div class="speaker-info">
-        <span class="expertise">FRONTEND</span>
-        <h3>Gary Marcus</h3>
-        <p>Staff Engineer, Vercel</p>
-      </div>
-    </div>
-
-    <div class="speaker-card">
-      <div class="speaker-img">
-        <img src="./Resources/B14-A01-DevConf-2026/assets/mustafa.png" alt="Mustafa Suleyman">
-      </div>
-      <div class="speaker-info">
-        <span class="expertise">SECURITY</span>
-        <h3>Mustafa Suleyman</h3>
-        <p>CEO of Microsoft AI</p>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<section class="pricing">
-    <h2>Secure Your Spot</h2>
-    <p class="pricing-sub">Early-bird pricing ends August 15, 2026.</p>
-
-    <div class="pricing-grid">
-
-      <div class="price-card">
-        <span class="plan-name">STANDARD</span>
-        <div class="price">$399</div>
-        <span class="person">per person</span><hr>
-        <ul>
-          <li>Access to all 3 conference days</li>
-          <li>48 curated technical talks</li>
-          <li>2 workshop sessions</li>
-          <li>Networking lunch & coffee breaks</li>
-          <li>Conference swag bag</li>
-          <li>Digital recordings (30 days)</li>
-        </ul>
-        <button class="common-btn price-btn">Get Standard</button>
-      </div>
-
-      <div class="price-card price-card-highlight">
-        <span class="plan-name">PRO</span>
-        <div class="price">$749</div>
-        <span class="person">per person</span><hr>
-        <ul>
-          <li>Everything in Standard</li>
-          <li>Unlimited workshop access</li>
-          <li>Speaker meet & greet</li>
-          <li>VIP networking dinner</li>
-          <li>Lifetime recording access</li>
-          <li>1-on-1 mentorship (30 min)</li>
-        </ul>
-        <button class="common-btn price-btn-pro">Get Pro</button>
-      </div>
-
-      <div class="price-card">
-        <span class="plan-name">TEAM</span>
-        <div class="price">$5,999</div>
-        <span class="person">up to 10 people</span><hr>
-        <ul>
-          <li>Everything in Pro (10 seats)</li>
-          <li>Dedicated team lounge access</li>
-          <li>Private workshop booking</li>
-          <li>Company logo on event page</li>
-          <li>Recruitment booth (1 day)</li>
-          <li>Priority customer support</li>
-        </ul>
-        <button class="common-btn price-btn">Contact Us</button>
-      </div>
-
-    </div>
-  </section>
-
+        <div class="footer-links">
+          <a href="">Privacy Policy</a>
+          <a href="">Terms of Service</a>
+        </div>
+    </footer>
   </body>
 </html>

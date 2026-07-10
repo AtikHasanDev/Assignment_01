@@ -287,3 +287,39 @@
   background-color: white;
   border: 1px solid #2563eb;
 }
+
+.footer{
+  padding: 40px 60px;
+  background-color: #0D1B2A;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+}
+
+.footer-links{
+  display: flex;
+  gap: 20px;
+}
+
+.footer-links a{
+  text-decoration: none;
+  color: white;
+  padding: 8px 8px;
+}
+
+.footer-links a:hover{
+    box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(47, 47, 79);
+    border-radius: 12px;
+}
+
+.icons{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
