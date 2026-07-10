@@ -5,7 +5,7 @@
   font-family: inter;
 }
 
-.common_btn {
+.common-btn {
   padding: 12px 24px;
   border-radius: 12px;
   font-size: 15px;
@@ -16,17 +16,30 @@
   color: #ffffff;
 }
 
+.common-btn:hover {
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #1d4ed8;
+}
+
+.common-btn:active {
+  background-color: rgb(40, 140, 202);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  transition: all 0.2s ease;
+}
+
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 100px;
-  margin: 0px 20px;
+  margin: 20px 8%;
 }
 
 .nav {
   display: flex;
-  gap: 30px;
+  gap: 5%;
 }
 
 .nav a {
@@ -34,4 +47,11 @@
   color: #575757;
   font-size: 15px;
   font-family: arimo;
+}
+
+
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+  }
 }
