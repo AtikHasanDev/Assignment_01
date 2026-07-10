@@ -65,16 +65,16 @@
 }
 
 .hero {
-    background-image:
-      linear-gradient(to right, rgba(0, 0, 0, 0.6) 30%, rgba(0, 0, 0, 0) 70%),
-      linear-gradient(
-        to bottom left,
-        rgba(0, 0, 0, 0) 42%,
-        rgba(0, 0, 0, 0.88) 87%
-      ),
-      url("./Resources/B14-A01-DevConf-2026/assets/banner.jpg");
-    background-size: cover;
-    background-position: center;
+  background-image:
+    linear-gradient(to right, rgba(0, 0, 0, 0.6) 30%, rgba(0, 0, 0, 0) 70%),
+    linear-gradient(
+      to bottom left,
+      rgba(0, 0, 0, 0) 42%,
+      rgba(0, 0, 0, 0.88) 87%
+    ),
+    url("./Resources/B14-A01-DevConf-2026/assets/banner.jpg");
+  background-size: cover;
+  background-position: center;
   min-height: 650px;
   display: flex;
   padding: 100px 20px;
@@ -107,7 +107,7 @@
   padding: 12px 24px;
   border-radius: 12px;
   font-size: 22px;
-   margin-top: auto;
+  margin-top: auto;
 }
 
 .speakers {
@@ -122,20 +122,20 @@
 
 .speaker-grid {
   display: grid;
-  grid-template-columns: repeat(2,  1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 30px;
 }
 
 .speaker-card {
-  border: 1px solid #E5E7EB;
+  border: 1px solid #e5e7eb;
   border-radius: 10px;
   background: #fff;
   text-align: left;
   overflow: hidden;
 }
 
-.speaker-card:hover{
-    box-shadow:
+.speaker-card:hover {
+  box-shadow:
     0 4px 8px 0 rgba(0, 0, 0, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -157,7 +157,7 @@
 }
 
 .expertise {
-  color: #2563EB;
+  color: #2563eb;
   font-size: 12px;
   font-weight: bold;
   letter-spacing: 0.3px;
@@ -166,7 +166,7 @@
 .speaker-info h3 {
   font-size: 20px;
   margin: 10px 0 6px;
-  color: #0D1B2A;
+  color: #0d1b2a;
 }
 
 .speaker-info p {
@@ -174,3 +174,116 @@
   font-size: 14px;
 }
 
+.pricing {
+  padding: 80px 60px;
+  text-align: center;
+}
+
+.pricing h2 {
+  font-size: 48px;
+  color: #0d1b2a;
+  margin-bottom: 10px;
+}
+
+.pricing-sub {
+  font-size: 16px;
+  color: #575757;
+  margin-bottom: 50px;
+}
+
+.pricing-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.price-card {
+  width: 300px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: left;
+}
+
+.price-card:hover {
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.price-card-highlight {
+  background-color: #0d1b2a;
+  color: #ffffff;
+  border: none;
+}
+
+.plan-name {
+  font-size: 13px;
+  color: #888888;
+  letter-spacing: 0.5px;
+}
+
+.price-card-highlight .plan-name {
+  color: #93c5fd; 
+}
+
+.price {
+  font-size: 34px;
+  font-weight: bold;
+  margin: 8px 0 0;
+}
+
+.person {
+  font-size: 13px;
+  color: #888888;
+}
+
+.price-card-highlight .person {
+  color: #ffffff;
+}
+
+.price-card hr {
+  margin-top: 20px;
+}
+
+.price-card ul {
+  list-style: none;
+  margin: 20px 0 25px;
+}
+
+.price-card ul li {
+  font-size: 14px;
+  margin-bottom: 12px;
+  padding-left: 16px;
+  position: relative;
+}
+
+.price-card ul li::before {
+  content: "•";
+  color: #2563eb;
+  position: absolute;
+  left: 0;
+}
+
+.price-btn {
+  padding: 12px 80px;
+  border-radius: 12px;
+  font-size: 12px;
+  color: #2563eb;
+  background-color: white;
+  border: 1px solid #2563eb;
+}
+
+.price-btn-pro {
+  padding: 12px 95px;
+  border-radius: 12px;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.price-btn:hover {
+  color: #2563eb;
+  background-color: white;
+  border: 1px solid #2563eb;
+}

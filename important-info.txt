@@ -16,5 +16,5 @@ display : block	Displays an element as a block element (like <p>). It starts on 
 
   5. overflow : hidden crops the image parts that is hidden after using cover to fill the box!
 
-  6.
+  6.flex-wrap: wrap; tells a flex container to move items onto a new line (or column) when there isn't enough space, instead of forcing them all onto one line.
 
