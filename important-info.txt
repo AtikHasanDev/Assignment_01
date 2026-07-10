@@ -1,0 +1,20 @@
+important realizations!!
+
+ 1.The display: flex needs to go on .hero itself (the parent), 
+ so that .hero-content (its direct child) can be told to stretch full height.
+
+ 2.in a flex container, margin: auto on one axis doesn't just center — it absorbs all available leftover space on that side.
+  Since .hero-content is a flex column, margin-top: auto on the button says "grab all the empty vertical space above me, push everything else up, and shove me to the bottom.
+ " Nothing else needs justify-content tricks — this one line does it because that child is opting out of the normal flex flow for just that one property.
+
+ 3.display: inline	Displays an element as an inline element (like <span>). Any height and width properties will have no effect. This is default.	
+display : block	Displays an element as a block element (like <p>). It starts on a new line, and takes up the whole width
+
+4.The alternative that avoids both distortion and cropping is object-fit: contain,
+ which shrinks the image to fit entirely inside the box, but then you can get empty letterboxed space around it.
+  For headshot cards like these, cover is the right call — you want the box fully filled even if it means cropping some edges.
+
+  5. overflow : hidden crops the image parts that is hidden after using cover to fill the box!
+
+  6.
+
