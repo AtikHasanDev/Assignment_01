@@ -10,6 +10,8 @@ also while hovering on the items picture should appear in right side , will thes
 
 can you fix the html and css for this schedule section , the day 1 would be aligned with the timeline straight line, the timeline item would be in left side of the line and hover photo would appear on the right side of the line
 
+for same timings can you give titles and description for day two , no code needed , i will add myself
+
 
 
 Claude Project Instructions (Used for revewing codes)

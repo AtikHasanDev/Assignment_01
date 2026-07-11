@@ -177,6 +177,7 @@
 .pricing {
   padding: 80px 60px;
   text-align: center;
+  margin-bottom: 100px;
 }
 
 .pricing h2 {
@@ -294,12 +295,14 @@
   color: #ffffff;
   display: flex;
   flex-direction: column;
+  margin-top: 150px;
 }
 
-.footer-top{
+.footer-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 .footer-links {
@@ -327,30 +330,39 @@
   display: flex;
   justify-content: center;
   gap: 10px;
+  font-size: 20px;
 }
 
-.icons a{
+.icons a {
   text-decoration: none;
   color: white;
 }
 
-.footer-right{
+.footer-right {
   display: flex;
   flex-direction: column;
+  font-size: 20px;
 }
 
-.footer hr{
+.footer hr {
   margin-top: 10px;
   margin-bottom: 30px;
+
+
 }
-.footer p{
-  text-align: center;
-    font-size: 13px;
-    margin-left: 40px;
+
+.footer-bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-bottom p {
+  font-size: 13px;
 }
 
 .schedule {
-  padding: 80px 60px;
+  padding: 0px 60px;
   text-align: center;
   background: #ffffff;
 }
@@ -358,24 +370,20 @@
 .schedule h2 {
   font-size: 48px;
   color: #0d1b2a;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .schedule-sub {
-  font-size: 16px;
+  font-size: 18px;
   color: #575757;
   margin-bottom: 60px;
 }
-
-
 
 .timeline {
   position: relative;
   max-width: 1100px;
   margin: auto;
 }
-
-
 
 .timeline::before {
   content: "";
@@ -390,8 +398,6 @@
 
   transform: translateX(-50%);
 }
-
-
 
 .timeline-day-label {
   position: sticky;
@@ -413,8 +419,6 @@
   z-index: 10;
 }
 
-
-
 .timeline-item {
   position: relative;
 
@@ -424,8 +428,6 @@
 
   margin-bottom: 60px;
 }
-
-
 
 .timeline-item::after {
   content: "";
@@ -451,8 +453,6 @@
   z-index: 5;
 }
 
-
-
 .timeline-content {
   width: 42%;
 
@@ -472,7 +472,6 @@
 .timeline-content:hover {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 }
-
 
 .timeline-time {
   display: block;
@@ -516,36 +515,20 @@
   line-height: 1.6;
 }
 
-
 .timeline-preview {
   position: absolute;
-
   left: 58%;
-
-  top: 50%;
-
-  width: 300px;
+  width: 380px;
   height: 180px;
-
   object-fit: cover;
-
   border-radius: 12px;
-
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
-
-  opacity: 0;
-
-  transform: translateY(-50%) translateX(20px);
-
-  transition: 0.3s;
-
-  pointer-events: none;
 }
 
-.timeline-item:hover .timeline-preview {
-  opacity: 1;
-
-  transform: translateY(-50%) translateX(0);
+.timeline-preview:hover {
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      transition: all 0.2s ease;
 }
 
 @media (max-width: 768px) {
